@@ -5,8 +5,8 @@ pipeline {
   }    
   environment {
     TOMCAT_CREDS=credentials('pi-ssh-key')
-    TOMCAT_SERVER="192.168.1.48"
-    ROOT_WAR_LOCATION="/home/pi/tools/apache-tomcat-10.1.18/webapps"
+    TOMCAT_SERVER="192.168.72.145"
+    ROOT_WAR_LOCATION="/home/pi/tools/apache-tomcat-9.0.100/webapps"
     LOCAL_WAR_DIR="build/dist"
     WAR_FILE="app-0.1.0.war"
   }
